@@ -4,7 +4,18 @@ version: 0.0.1-SNAPSHOT
 author: kiran+700@prophecy.io
 language: python
 buildSystem: wheel
-pipelines: {}
+pipelines:
+  pipelines/pipeline:
+    name: pipeline
+    description: ''
+    author: kiran+700@prophecy.io
+    mode: batch
+    language: python
+    createdAt: '2022-11-03 09:20:11'
+    datasets:
+      inputs: []
+      outputs: []
+    dependencies: {}
 datasets: {}
 templates: {}
 jobs: {}
